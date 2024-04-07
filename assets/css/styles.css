@@ -1,0 +1,36 @@
+:root{
+    --text-primary: 
+}
+
+body{
+    background-color: rgb(20, 129, 187);
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#main-section{
+    min-height: 15vh;
+    flex-direction: column;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: safe center;
+}
+
+#map{
+    background-color: rgb(222, 222, 222);
+
+    height: 45vw;
+    width: 90vw;
+}
+
+h1{
+    font-weight:bold;
+}
